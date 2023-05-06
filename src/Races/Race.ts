@@ -7,7 +7,7 @@ export default abstract class Race {
     this._dexterity = dexterity;
   }
 
-  abstract get maxLifePoints(): number;
+  public abstract get maxLifePoints(): number;
 
   public static createdRacesInstances(): number {
     throw new Error('Not implemented');
